@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slider</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #555;
+      color: #fff;
+      font-size: 26px;
+      font-family: Arial, Helvetica, sans-serif;
+      letter-spacing: 3px;
+      height: 100vh;
+    }
+
+    img {
+      display: block;
+      margin-top: 20px;
+    }
+
+    .slide {
+      cursor: pointer;
+    }
+
+    .slide:nth-child(1) {
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="slider">
+    <span id="1" class="slide">[1]</span>
+    <span id="2" class="slide">[2]</span>
+    <span id="3" class="slide">[3]</span>
+    <span id="4" class="slide">[4]</span>
+    <span id="5" class="slide">[5]</span>
+    <img src="slajdy/slajd1.png" alt="">
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
